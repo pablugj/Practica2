@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<!--Este DOCTYPE es para HTML5 -->
+<html>
+<!--Etiqueta principal -->
+<head>
+	<!--Configuracion basica de mi pagina 
+	<meta charset="utf-8" />-->
+	<title>Mi primer formulario</title>
+	<link rel="stylesheet" href="css/main.css" />
+</head>
+<body>
+<header>
+	<h1>Inicio</h1>
+</header>
+
+<section>
+	<form action="validar.php" method="get">
+		<p>Nombre</p>
+		<p>
+			<input type="text" name="nombre" id="nombre"  /> 
+			<label for="nombre">Primer Nombre</label>
+		</p>
+
+		<p>
+			<input type="text" name="apellido" id="apellido" />
+			<label for="apellido">Apellido</label>
+		</p>
+		<p>
+			<input type="submit" name="enviar" id="enviar" value="Entrar" />
+		</p>
+	</form>
+</section>
+
+</body>
+</html>
